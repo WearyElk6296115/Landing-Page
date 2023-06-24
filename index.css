@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding:0;
+    margin:0;
+}
+
+header,footer {
+    position: absolute;
+    background-color: rgb(33, 41, 55);
+    width: 100%;
+    
+}
+
+header {
+    height: 25vh;
+}
+
+header h2 {
+    position: absolute;
+    margin-top: 10px;
+    left: 60px;
+}
+
+
+.content {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    left: 20px;
+    margin: 5vh;
+}
+
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+.nav {
+    position: absolute;
+    width:100%;
+}
+
+.nav a {
+    position: relative;
+    left: 70%;
+    top: 20px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+footer { 
+    height: 7vh;
+    bottom: 0;
+    padding-bottom: 5px;
+}
+
+footer h2 {
+    position: absolute;
+    left: 45%;
+    font-size: small;
+}
